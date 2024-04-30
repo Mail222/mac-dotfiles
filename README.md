@@ -28,13 +28,11 @@ Warning: If you *really* want attempt to use MY dotfiles, you should at least fo
 
 `~$ cd mac-dotfiles && chmod +x brew.sh && ./brew.sh`
 
-`gitless install
-~$ curl https://raw.githubusercontent.com/Mail222/mac-dotfiles/main/brew.sh | bash`
+`gitless install: ~$ curl https://raw.githubusercontent.com/Mail222/mac-dotfiles/main/brew.sh | bash`
 ### Installing neofetch config
-`~$ mv ~/.config/neofetch/config.conf ~/.config/neofetch/config.conf.bak && cp mac-dotfiles/.config/neofetch/config.conf ~/.config/neofetch/config.conf
+`~$ mv ~/.config/neofetch/config.conf ~/.config/neofetch/config.conf.bak && cp mac-dotfiles/.config/neofetch/config.conf ~/.config/neofetch/config.conf`
 
-gitless install
-~$ cd ~/.config/neofetch && cp config.conf config.conf.bak && curl https://raw.githubusercontent.com/Mail222/mac-dotfiles/main/.config/neofetch/config.conf > config.conf`
+`gitless install: ~$ cd ~/.config/neofetch && cp config.conf config.conf.bak && curl https://raw.githubusercontent.com/Mail222/mac-dotfiles/main/.config/neofetch/config.conf > config.conf`
 ### Installing zsh config (mgutz theme)
 `~$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
