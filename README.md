@@ -23,16 +23,20 @@ Warning: If you *really* want attempt to use MY dotfiles, you should at least fo
 - copy files 📋
 - enjoy!
 
-Installing brew packages
+### Installing brew packages
 `~$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` Needed for git and gitless
+
 `~$ cd mac-dotfiles && chmod +x brew.sh && ./brew.sh`
+
 `gitless install
 ~$ curl https://raw.githubusercontent.com/Mail222/mac-dotfiles/main/brew.sh | bash`
-Installing neofetch config
+### Installing neofetch config
 `~$ mv ~/.config/neofetch/config.conf ~/.config/neofetch/config.conf.bak && cp mac-dotfiles/.config/neofetch/config.conf ~/.config/neofetch/config.conf
+
 gitless install
 ~$ cd ~/.config/neofetch && cp config.conf config.conf.bak && curl https://raw.githubusercontent.com/Mail222/mac-dotfiles/main/.config/neofetch/config.conf > config.conf`
-Installing zsh config (mgutz theme)
+### Installing zsh config (mgutz theme)
 `~$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
 `~$ mv ~/.zshrc ~/.zshrc.bak && cp mac-dotfiles/.zshrc ~/.zshrc`
-Installing kitty config (WIP)
+### Installing kitty config (WIP)
